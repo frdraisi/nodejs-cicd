@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha"
+    "test": "mocha --experimental-modules --require esm test/test.mjs"
   },
   "author": "Your Name",
   "license": "ISC",

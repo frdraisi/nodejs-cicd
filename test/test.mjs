@@ -1,4 +1,3 @@
-// test/test.mjs
 import chai from 'chai';
 const { expect } = chai;
 

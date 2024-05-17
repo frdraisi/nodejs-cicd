@@ -1,5 +1,6 @@
 // test/test.mjs
-import { expect } from 'chai';
+import chai from 'chai';
+const { expect } = chai;
 
 describe('Basic Test', () => {
   it('should return true', () => {

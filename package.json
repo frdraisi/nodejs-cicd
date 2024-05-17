@@ -1,5 +1,19 @@
 {
+  "name": "nodejs-cicd",
+  "version": "1.0.0",
+  "description": "A simple Node.js project to demonstrate CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Your Name",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
   }
 }
